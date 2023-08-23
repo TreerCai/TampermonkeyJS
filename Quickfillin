@@ -53,11 +53,11 @@
             check = document.querySelector('#b03').getElementsByTagName("input")[0];
             check.checked = true;
             // d01 no
-//            check = document.querySelector('#d01').querySelector('#bmgroup-0');
-//            check.checked = true;
+            check = document.querySelector('#d01').querySelector('#bmgroup-0');
+            check.click();
             // e01 no
-//            check = document.querySelector('#e01').getElementsByTagName("input")[1];
-//            check.checked = true;
+            check = document.querySelector('#e01').getElementsByTagName("input")[1];
+            check.click();
             // f01-f02 no
             for (i=1;i<3;i++)
             {
@@ -65,8 +65,8 @@
                 check.checked = true;
             }
             // g01 no
- //           check = document.querySelector('#g01').querySelector('#bmgroup-0');
- //           check.checked = true;
+            check = document.querySelector('#g01').querySelector('#bmgroup-0');
+            check.click();
             // h01 yes
             check = document.querySelector('#h01').querySelector('#bmgroup-1');
             check.checked = true;
@@ -80,11 +80,11 @@
             check = document.querySelector('#t01').querySelector('#bmgroup-1');
             check.checked = true;
             // t02A t03A t04A t05A no
-//            for (i=2;i<6;i++)
-//            {
-//                check = document.querySelector('#t0'+i+'A').getElementsByTagName("input")[1];
-//                check.checked = true;
-//            }
+            for (i=2;i<6;i++)
+            {
+                check = document.querySelector('#t0'+i+'A').getElementsByTagName("input")[1];
+                check.click();
+            }
         },500);
     }
 })();
