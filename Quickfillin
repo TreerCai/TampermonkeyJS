@@ -24,10 +24,10 @@
         setTimeout(function() {
             document.querySelector('#inquiryName').value = "梅倩云";
             document.querySelector('#custodian').value = "闵敏";
-            document.querySelector('#potZcodeShow').value = "32040000";
-            var select = document.getElementById('sdcZoneorg_searchZone-orgcode').getElementsByTagName("select")[0];
-            select.selectedIndex = 1;
-            select = document.querySelector('#b04').getElementsByTagName("select")[0];
+//            document.querySelector('#potZcodeShow').value = "32040000";
+//            var select = document.getElementById('sdcZoneorg_searchZone-orgcode').getElementsByTagName("select")[0];
+//            select.selectedIndex = 1;
+            var select = document.querySelector('#b04').getElementsByTagName("select")[0];
             select.selectedIndex = 1;
 
             // c01-c03 no
